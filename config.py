@@ -7,7 +7,7 @@ API_HASH = os.environ.get('api_hash','c2cbb2f07c44fe466076fbe65e3c00cc')
 SPLIT_FILE = 1024 * 1024 * int(os.environ.get('split_file','99'))
 ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('Elnietodecacha')
-PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KFGEJJYJJDLKFJYGJDLJKGYKCDDGRGHHCGHGCH'))
+PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KKDHKGYIJJJJGJYEJGGHGIYGKFEGGIREDJLJDHLH'))
 
 if PROXY:
   print(f'Proxy {PROXY.as_dict_proxy()}')
