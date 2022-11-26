@@ -16,7 +16,6 @@ import repouploader
 import zipfile
 import time
 import animate
-import wheel
 
 from repouploader import RepoUploader,RepoUploaderResult
 from pydownloader.downloader import Downloader
